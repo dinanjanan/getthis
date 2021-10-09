@@ -35,22 +35,13 @@ typings
 .typingsrc
 dist
 
-src/*.js
-src/**/*.js
-
-src/*.js.map
-src/**/*.js.map
-
 *.d.ts
 *.tsbuildinfo
 
-test/*.js
-test/**/*.js
 test/*.js.map
 test/**/*.js.map
 src/**/*.js.map
 src/*.js.map
-type_definitions/**/*.js
 .DS_store
 .idea
 
