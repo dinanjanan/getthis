@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "watch": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "watchOptions": {
+    "excludeDirectories": ["./node_modules/**/*", "./dist/**/*"],
+  }
+}
