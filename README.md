@@ -1,3 +1,5 @@
 # MELO
 
-A harmonic Dependency Injection framework for Typescript on NodeJS!
+A harmonious Dependency Injection framework for TypeScript and JavaScript!
+
+Usage guides and documentation coming soon...
