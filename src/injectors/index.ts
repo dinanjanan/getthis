@@ -1,0 +1,1 @@
+export { createInject } from './inject';

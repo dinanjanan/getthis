@@ -2,9 +2,10 @@
   "name": "melo",
   "version": "1.0.0-alpha.0",
   "author": "Dinanjanan Ravindran <dinaravi.4114@gmail.com>",
-  "description": "A harmonic dependency injection framework for typescript",
+  "description": "A harmonious Dependency Injection framework for TypeScript and JavaScript",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "engines": {},
   "scripts": {
     "watch": "tsc --watch",
@@ -14,20 +15,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitub.com/dinanjanan/melo"
+    "url": "https://github.com/dinanjanan/melo"
+  },
+  "bugs": {
+    "url": "https://github.com/dinanjanan/melo/issues"
   },
   "keywords": [
     "di",
-    "dependency-injection",
     "ioc",
-    "ioc-container",
-    "di-container"
+    "ioc container",
+    "di container",
+    "dependency injection",
+    "dependency inversion",
+    "inversion of control",
+    "inversion of control container",
+    "node",
+    "typescript",
+    "javascript"
   ],
-  "dependencies": {
-    "reflect-metadata": "^0.1.13"
-  },
   "devDependencies": {
     "@types/node": "^16.10.3",
-    "@types/reflect-metadata": "^0.1.0"
+    "typescript": "^4.4.3"
   }
 }

@@ -6,14 +6,15 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "sourceMap": true,
-    "rootDir": "./src",
+    "rootDirs": ["./src"],
     "outDir": "./dist",
     "forceConsistentCasingInFileNames": true,
     "watch": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "downlevelIteration": true,
+    "declaration": true,
   },
   "watchOptions": {
     "excludeDirectories": ["./node_modules/**/*", "./dist/**/*"],
+    "excludeFiles": ["**/*.d.ts"]
   }
 }
