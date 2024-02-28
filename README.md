@@ -1,5 +1,7 @@
-# MELO
+# getthis
 
-A harmonious Dependency Injection framework for TypeScript and JavaScript!
+A dependency injection framework without the runtime overhead.
 
-Usage guides and documentation coming soon...
+getthis overcomes using runtime reflection to infer types and load the correct dependencies by instead opting for a declarative pattern employing default function parameters.
+
+Usage documentation to be uploaded soon.

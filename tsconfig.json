@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es2015",
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -11,7 +11,7 @@
     "forceConsistentCasingInFileNames": true,
     "watch": true,
     "downlevelIteration": true,
-    "declaration": true,
+    "declaration": true
   },
   "watchOptions": {
     "excludeDirectories": ["./node_modules/**/*", "./dist/**/*"],
